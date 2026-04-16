@@ -81,7 +81,7 @@
         },
         {
           "label": " ",
-          "command": "nm-connection-editor"
+          "command": "hyprctl dispatch exec /home/nono/.local/bin/hyprltm-net"
         },
         {
           "label": "󰂯",

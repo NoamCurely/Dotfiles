@@ -251,3 +251,31 @@ progressbar {
   margin: 6px;
   border-radius: 6px;
 }
+
+/* ---------------- Wi-Fi ---------------- */
+.widget-buttons-grid>flowbox>flowboxchild>button.wifi.connected {
+    background: rgba(137, 180, 250, 0.25); /* bleu doux */
+}
+
+/* ---------------- Bluetooth ---------------- */
+.widget-buttons-grid>flowbox>flowboxchild>button.bluetooth.connected {
+    background: rgba(166, 227, 161, 0.25); /* vert */
+}
+
+/* ---------------- Microphone ---------------- */
+.widget-buttons-grid>flowbox>flowboxchild>button.microphone.muted {
+    background: rgba(243, 139, 168, 0.25); /* rouge doux */
+}
+.widget-buttons-grid>flowbox>flowboxchild>button.microphone:not(.muted) {
+    background: rgba(166, 227, 161, 0.18); /* vert léger */
+}
+
+/* ---------------- Volume ---------------- */
+.widget-buttons-grid>flowbox>flowboxchild>button.volume.enabled {
+    background: rgba(250, 179, 135, 0.25); /* orange */
+}
+
+/* ---------------- DND ---------------- */
+.widget-buttons-grid>flowbox>flowboxchild>button.dnd.checked {
+    background: @selected;
+}
