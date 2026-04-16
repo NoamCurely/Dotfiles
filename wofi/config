@@ -1,0 +1,10 @@
+show=drun
+prompt=Rechercher...
+width=500
+height=300
+lines=8
+location=center
+allow_images=true
+image_size=32
+insensitive=true
+term=kitty
